@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .cabecera {
+        width: 100vw;
+        height: 90px;
+        text-align: center;
+      }
+      .contenedor {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+      }
+      .tarjeta {
+        width: 250px;
+        height: 350px;
+        border-radius: 10px;
+        border: 2px solid #000;
+      }
+      .tarjeta img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+      }
+      .trjeta h2,
+      p {
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="cabecera">
+      <h1>Elije el colos de fondo de tu tarjeta</h1>
+      <label for="color">Elija su color favorito:</label>
+      <select id="color"></select>
+    </main>
+    <section class="contenedor"></section>
+    <script src="app.js"></script>
+    <img src="" alt="" />
+  </body>
+</html>
